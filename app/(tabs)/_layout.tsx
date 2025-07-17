@@ -46,16 +46,21 @@ const _layout = () => {
           width:'100%',
           height:'100%',
         justifyContent:'center',
-          alignItems:'center'
+          alignItems:'center',
+          backgroundColor:'#0f0D23'
+          
       },
         tabBarStyle:{
           backgroundColor:'#0f0D23',
           borderRadius:50,
-          
+          borderColor:'#0f0C10',
           marginHorizontal:20,
-          marginBottom:36,
+          marginBottom:40,
           height:52,
-          overflow:'hidden'
+          overflow:'hidden',
+          position:'absolute'
+          
+          
         }
 
       }
